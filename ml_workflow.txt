@@ -1,0 +1,47 @@
+1. Data Collection
+Data is collected from various sources such as surveys, sensors, websites, and databases.
+The quality of collected data directly affects model performance.
+Accurate and relevant data is important.
+Machine learning starts with collecting useful data.
+
+2. Data Cleaning
+Data cleaning removes errors and missing values.
+Duplicate records are handled.
+Incorrect values are corrected.
+Clean data improves prediction accuracy.
+
+3. Feature Selection
+Features are the input variables used for prediction.
+Important features are selected.
+Unnecessary columns are removed.
+This improves model efficiency.
+
+4. Train-Test Split
+The dataset is divided into training and testing sets.
+Training data teaches the model.
+Testing data evaluates the model.
+This helps check model performance.
+
+5. Model Training
+A machine learning algorithm learns patterns from training data.
+The model creates relationships between features and labels.
+Training improves prediction ability.
+The model becomes ready for testing.
+
+6. Testing
+The trained model is tested using unseen data.
+Predictions are generated.
+Actual and predicted values are compared.
+This checks model accuracy.
+
+7. Evaluation
+Evaluation measures model performance.
+Metrics such as MAE and R² Score are used.
+Lower error indicates better performance.
+Evaluation helps improve models.
+
+8. Prediction
+The trained model predicts outcomes for new data.
+Predictions are based on learned patterns.
+Machine learning is used to make future decisions.
+This is the final step of the workflow.

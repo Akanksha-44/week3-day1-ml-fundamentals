@@ -1,0 +1,51 @@
+
+
+1. What is the slope?
+
+The slope values of my model are:
+
+Study_Hours = 3.45487968
+
+Attendance = 1.34491979
+
+Assignments = -2.40274064
+
+These values represent the coefficients of the Linear Regression model.
+
+2. What is the intercept?
+
+The intercept of my model is:
+
+-48.100601604278054
+
+3. What do they mean?
+
+The coefficients indicate how much the predicted marks change when a feature increases by one unit while keeping other features constant. A positive coefficient means the feature increases marks, while a negative coefficient means it decreases marks. The intercept represents the starting value of the prediction equation when all feature values are zero.
+
+4. Which student had the highest prediction error?
+
+The student with Actual Marks = 35 had the highest prediction error.
+
+Actual Marks = 35
+
+Predicted Marks = 31.243984
+
+Difference = 3.756016
+
+Therefore, this student had the largest prediction error among the test samples.
+
+5. What is MAE?
+
+Mean Absolute Error (MAE) measures the average absolute difference between actual and predicted values. It helps determine how close the model's predictions are to the real values.
+
+MAE = 1.345365
+
+6. What is R² Score?
+
+R² Score measures how well the model explains the variation in the target variable. The value ranges from 0 to 1. A value closer to 1 indicates a better model.
+
+R² Score = 0.992996
+
+7. Is your model performing well?
+
+Yes, the model is performing very well. The MAE value is very low (1.345), which means the predictions are close to the actual values. The R² Score is approximately 0.993, which is very close to 1. This indicates that the model explains about 99.3% of the variation in marks and provides highly accurate predictions.
